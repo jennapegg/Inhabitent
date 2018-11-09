@@ -681,6 +681,13 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.blog .content-area {
+  color: green; }
+  .blog .content-area h1,
+  .blog .content-area a {
+    color: grey;
+    text-decoration: none; }
+
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;
   background-size: cover;
@@ -692,3 +699,17 @@ object {
     .site-footer .site-info h6 {
       font-size: 1rem;
       color: orange; }
+
+.contact {
+  margin: 15px; }
+  .contact a {
+    color: white;
+    text-decoration: none; }
+  .contact i {
+    padding-right: 5px; }
+
+.social-media i {
+  padding: 0 10px 0 10px; }
+
+.business {
+  margin: 15px; }

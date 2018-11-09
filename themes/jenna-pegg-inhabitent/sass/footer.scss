@@ -4,10 +4,30 @@
   color: white;
   .site-info {
     display: flex;
-
     h6 {
       font-size: 1rem;
       color: orange;
     }
   }
+}
+
+.contact {
+  margin: 15px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  i {
+    padding-right: 5px;
+  }
+}
+
+.social-media {
+  i {
+    padding: 0 10px 0 10px;
+  }
+}
+
+.business {
+  margin: 15px;
 }
