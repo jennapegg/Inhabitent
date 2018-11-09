@@ -283,6 +283,17 @@ mark, ins {
 big {
   font-size: 125%; }
 
+.site-content {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 'main main sidebar' 'main main sidebar'; }
+
+.widget-area {
+  grid-area: sidebar; }
+
+.content-area {
+  grid-area: main; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -670,3 +681,14 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.site-footer {
+  background: url(../../images/dark-wood.png) no-repeat center bottom;
+  background-size: cover;
+  color: white; }
+  .site-footer .site-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .site-footer .site-info h6 {
+      font-size: 1rem;
+      color: orange; }

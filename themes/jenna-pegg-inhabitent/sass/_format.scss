@@ -1,0 +1,17 @@
+.site-content {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'main main sidebar'
+    'main main sidebar';
+}
+
+// header {
+//   grid-area: header;
+// }
+.widget-area {
+  grid-area: sidebar;
+}
+.content-area {
+  grid-area: main;
+}

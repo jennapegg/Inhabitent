@@ -1,6 +1,6 @@
 // immediately invoked function expression
 (function($) {
   $(document).ready(function() {
-    $('body').append('hello');
+    console.log('hello');
   });
 })(jQuery);

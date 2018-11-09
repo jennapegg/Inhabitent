@@ -1,0 +1,13 @@
+.site-footer {
+  background: url(../../images/dark-wood.png) no-repeat center bottom;
+  background-size: cover;
+  color: white;
+  .site-info {
+    display: flex;
+
+    h6 {
+      font-size: 1rem;
+      color: orange;
+    }
+  }
+}
