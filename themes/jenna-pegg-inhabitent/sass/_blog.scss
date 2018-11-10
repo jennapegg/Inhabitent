@@ -1,10 +1,32 @@
 .blog {
   .content-area {
+    article {
+      margin: 20px;
+      z-index: 100;
+      //   position: absolute;
+    }
     color: green;
-    h1,
+    h2,
     a {
-      color: grey;
+      color: white;
       text-decoration: none;
+    }
+    .entry-header {
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 1rem;
+        color: white;
+      }
+      .entry-meta {
+        position: absolute;
+        bottom: 1rem;
+        right: 2rem;
+        color: white;
+      }
+    }
+    img {
+      height: auto;
     }
   }
 }

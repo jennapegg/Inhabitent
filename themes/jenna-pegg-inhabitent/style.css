@@ -683,10 +683,26 @@ object {
 /* Front page */
 .blog .content-area {
   color: green; }
-  .blog .content-area h1,
+  .blog .content-area article {
+    margin: 20px;
+    z-index: 100; }
+  .blog .content-area h2,
   .blog .content-area a {
-    color: grey;
+    color: white;
     text-decoration: none; }
+  .blog .content-area .entry-header {
+    position: relative; }
+    .blog .content-area .entry-header h2 {
+      position: absolute;
+      top: 1rem;
+      color: white; }
+    .blog .content-area .entry-header .entry-meta {
+      position: absolute;
+      bottom: 1rem;
+      right: 2rem;
+      color: white; }
+  .blog .content-area img {
+    height: auto; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;
