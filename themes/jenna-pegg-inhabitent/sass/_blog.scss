@@ -2,17 +2,15 @@
   .content-area {
     article {
       margin: 20px;
-      z-index: 100;
-      //   position: absolute;
     }
     h2,
     a {
-      color: white;
+      color: $white;
       text-decoration: none;
     }
     .post {
       padding-left: 50px;
-      width: 760px;
+      width: 825px;
     }
 
     .entry-header {
@@ -21,25 +19,26 @@
         position: absolute;
         display: flex;
         flex-wrap: wrap;
-        width: 450px;
-        top: 1rem;
+        width: 575px;
+        top: 0rem;
         font-size: 35px;
-        color: white;
-        background: #248a83;
+        line-height: 2.5rem;
+        color: $white;
+        background: $teal;
         padding: 10px;
       }
       .entry-meta {
         position: absolute;
         bottom: 1rem;
-        right: 2.5rem;
-        color: white;
-        background: #248a83;
+        right: 0rem;
+        color: $white;
+        background: $teal;
         padding: 10px;
       }
     }
     img {
       height: auto;
-      width: 760px;
+      width: 825px;
     }
   }
 }

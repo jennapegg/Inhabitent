@@ -225,6 +225,48 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'novecento';
+  src: url("../../fonts/novecento.eot");
+  src: url("../../fonts/novecento.eot?#iefix") format("embedded-opentype"), url("../../fonts/novecento.woff2") format("woff2"), url("novecento.woff") format("woff"), url("../../fonts/novecento.ttf") format("truetype"), url("../../fonts/novecento.svg#.") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'novecento-bold';
+  src: url("../../fonts/novecento-bold.eot");
+  src: url("../../fonts/novecento-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/novecento-bold.woff2") format("woff2"), url("../../fonts/novecento-bold.woff") format("woff"), url("../../fonts/novecento-bold.ttf") format("truetype"), url("../../fonts/novecento-bold.svg#.") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather-Light';
+  src: url("../../fonts/Merriweather-Light.eot");
+  src: url("../../fonts/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Light.woff2") format("woff2"), url("../../fonts/Merriweather-Light.woff") format("woff"), url("../../fonts/Merriweather-Light.ttf") format("truetype"), url("../../fonts/Merriweather-Light.svg#Merriweather-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url("../../fonts/Merriweather-Bold.eot");
+  src: url("../../fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Bold.woff2") format("woff2"), url("../../fonts/Merriweather-Bold.woff") format("woff"), url("../../fonts/Merriweather-Bold.ttf") format("truetype"), url("../../fonts/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather-Bold-Italic';
+  src: url("../../fonts/Merriweather-BoldItalic.eot");
+  src: url("../../fonts/Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../../fonts/Merriweather-BoldItalic.woff") format("woff"), url("../../fonts/Merriweather-BoldItalic.ttf") format("truetype"), url("../../fonts/Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Merriweather-Light-Italic';
+  src: url("../../fonts/Merriweather-LightItalic.eot");
+  src: url("../../fonts/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-LightItalic.woff2") format("woff2"), url("../../fonts/Merriweather-LightItalic.woff") format("woff"), url("../../fonts/Merriweather-LightItalic.ttf") format("truetype"), url("../../fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -286,7 +328,18 @@ big {
 html,
 body {
   min-height: 100%;
-  min-width: 100%; }
+  min-width: 100%;
+  font-size: 16px;
+  font-family: 'Merriweather-Light'; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'novecento-bold';
+  text-transform: uppercase; }
 
 .hfeed {
   min-height: 100%; }
@@ -690,17 +743,16 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .blog .content-area article {
-  margin: 20px;
-  z-index: 100; }
+  margin: 20px; }
 
 .blog .content-area h2,
 .blog .content-area a {
-  color: white;
+  color: #fff;
   text-decoration: none; }
 
 .blog .content-area .post {
   padding-left: 50px;
-  width: 760px; }
+  width: 825px; }
 
 .blog .content-area .entry-header {
   position: relative; }
@@ -711,23 +763,24 @@ object {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 450px;
-    top: 1rem;
+    width: 575px;
+    top: 0rem;
     font-size: 35px;
-    color: white;
+    line-height: 2.5rem;
+    color: #fff;
     background: #248a83;
     padding: 10px; }
   .blog .content-area .entry-header .entry-meta {
     position: absolute;
     bottom: 1rem;
-    right: 2.5rem;
-    color: white;
+    right: 0rem;
+    color: #fff;
     background: #248a83;
     padding: 10px; }
 
 .blog .content-area img {
   height: auto;
-  width: 760px; }
+  width: 825px; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;
