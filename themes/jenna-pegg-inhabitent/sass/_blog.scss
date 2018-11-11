@@ -5,28 +5,41 @@
       z-index: 100;
       //   position: absolute;
     }
-    color: green;
     h2,
     a {
       color: white;
       text-decoration: none;
     }
+    .post {
+      padding-left: 50px;
+      width: 760px;
+    }
+
     .entry-header {
       position: relative;
       h2 {
         position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: 450px;
         top: 1rem;
+        font-size: 35px;
         color: white;
+        background: #248a83;
+        padding: 10px;
       }
       .entry-meta {
         position: absolute;
         bottom: 1rem;
-        right: 2rem;
+        right: 2.5rem;
         color: white;
+        background: #248a83;
+        padding: 10px;
       }
     }
     img {
       height: auto;
+      width: 760px;
     }
   }
 }

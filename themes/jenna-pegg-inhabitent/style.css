@@ -283,6 +283,14 @@ mark, ins {
 big {
   font-size: 125%; }
 
+html,
+body {
+  min-height: 100%;
+  min-width: 100%; }
+
+.hfeed {
+  min-height: 100%; }
+
 .site-content {
   width: 100%;
   display: grid;
@@ -681,28 +689,45 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog .content-area {
-  color: green; }
-  .blog .content-area article {
-    margin: 20px;
-    z-index: 100; }
-  .blog .content-area h2,
-  .blog .content-area a {
+.blog .content-area article {
+  margin: 20px;
+  z-index: 100; }
+
+.blog .content-area h2,
+.blog .content-area a {
+  color: white;
+  text-decoration: none; }
+
+.blog .content-area .post {
+  padding-left: 50px;
+  width: 760px; }
+
+.blog .content-area .entry-header {
+  position: relative; }
+  .blog .content-area .entry-header h2 {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 450px;
+    top: 1rem;
+    font-size: 35px;
     color: white;
-    text-decoration: none; }
-  .blog .content-area .entry-header {
-    position: relative; }
-    .blog .content-area .entry-header h2 {
-      position: absolute;
-      top: 1rem;
-      color: white; }
-    .blog .content-area .entry-header .entry-meta {
-      position: absolute;
-      bottom: 1rem;
-      right: 2rem;
-      color: white; }
-  .blog .content-area img {
-    height: auto; }
+    background: #248a83;
+    padding: 10px; }
+  .blog .content-area .entry-header .entry-meta {
+    position: absolute;
+    bottom: 1rem;
+    right: 2.5rem;
+    color: white;
+    background: #248a83;
+    padding: 10px; }
+
+.blog .content-area img {
+  height: auto;
+  width: 760px; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;

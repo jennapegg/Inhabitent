@@ -1,3 +1,13 @@
+html,
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.hfeed {
+  min-height: 100%;
+}
+
 .site-content {
   width: 100%;
   display: grid;
@@ -6,9 +16,6 @@
     'main main sidebar';
 }
 
-// header {
-//   grid-area: header;
-// }
 .widget-area {
   grid-area: sidebar;
 }
