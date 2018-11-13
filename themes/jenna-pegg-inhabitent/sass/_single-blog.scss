@@ -1,0 +1,76 @@
+.single {
+  article {
+    padding-left: 70px;
+    width: 825px;
+    img {
+      width: 825px;
+    }
+  }
+  .entry-header {
+    position: relative;
+  }
+  .entry-title {
+    position: absolute;
+    top: 0rem;
+    font-size: 35px;
+    line-height: 2.5rem;
+    color: $white;
+    background: $teal;
+    padding: 10px;
+  }
+  .entry-meta {
+    position: absolute;
+    bottom: 0.45rem;
+    right: 0rem;
+    background: $teal;
+    color: $white;
+    padding: 5px;
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+  .cat-links,
+  .tags-links {
+    font-family: 'novecento';
+    text-transform: uppercase;
+    padding-right: 15px;
+    a {
+      color: $teal;
+      text-decoration: none;
+    }
+  }
+  .nav-next {
+    display: none;
+  }
+  .comments-area {
+    width: 825px;
+    padding-left: 70px;
+    h3 {
+      //   font-family: 'novecento';
+      font-size: 30px;
+    }
+    .comment-form-comment {
+      font-family: 'novecento';
+      text-transform: uppercase;
+    }
+    .form-submit {
+      .submit {
+        background: $teal;
+        color: white;
+        font-family: 'novecento';
+        font-size: 16px;
+        text-transform: uppercase;
+        height: 50px;
+        width: 100px;
+        border: none;
+      }
+    }
+  }
+}
+
+#comment {
+  height: 300px;
+  background: red;
+}
