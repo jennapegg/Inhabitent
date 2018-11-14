@@ -41,36 +41,72 @@
       text-decoration: none;
     }
   }
-  .nav-next {
+  .nav-next,
+  .nav-previous {
     display: none;
   }
-  .comments-area {
-    width: 825px;
-    padding-left: 70px;
-    h3 {
-      //   font-family: 'novecento';
-      font-size: 30px;
+}
+
+.comment-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 750px;
+  font-family: 'novecento';
+  text-transform: uppercase;
+
+  h3 {
+    font-size: 30px;
+  }
+  #comment {
+    height: 235px;
+    background: $comment-grey;
+    width: 750px;
+  }
+  .comment-form-author {
+    @include flex-column;
+    width: 49%;
+    #author {
+      background: $comment-grey;
     }
-    .comment-form-comment {
-      font-family: 'novecento';
-      text-transform: uppercase;
+  }
+
+  .comment-form-email {
+    @include flex-column;
+    width: 49%;
+    margin-left: 2%;
+    #email {
+      background: $comment-grey;
     }
-    .form-submit {
-      .submit {
-        background: $teal;
-        color: white;
-        font-family: 'novecento';
-        font-size: 16px;
-        text-transform: uppercase;
-        height: 50px;
-        width: 100px;
-        border: none;
-      }
+  }
+
+  .comment-form-url {
+    @include flex-column;
+    width: 750px;
+    #url {
+      background: $comment-grey;
     }
   }
 }
 
-#comment {
-  height: 300px;
-  background: red;
+.comments-area {
+  width: 825px;
+  padding-left: 70px;
+  .comment-form-comment {
+    font-family: 'novecento';
+    text-transform: uppercase;
+  }
+  .form-submit {
+    .submit {
+      background: $teal;
+      color: white;
+      font-family: 'novecento';
+      font-size: 16px;
+      text-transform: uppercase;
+      height: 50px;
+      width: 100px;
+      border: none;
+      box-shadow: none;
+      text-shadow: none;
+    }
+  }
 }
