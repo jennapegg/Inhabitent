@@ -39,3 +39,41 @@ function the_url( $url ) {
 }
 add_filter( 'login_headerurl', 'the_url' );
 
+//custom hero image for about page 
+
+function inhabitent_dynamic_css(){
+  if(!is_page_template('about.php')){
+    return;
+  }
+
+  $image = CFS()->get('about_header_image');
+
+  if(!$image){
+    $hero_css = ".page-template-about .entry-header {
+      background: grey;
+      color: white;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }";
+  } else {
+    $hero_css = ".page-template-about .entry-header {
+      background: grey;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%),
+      url({$image});
+      color: white;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      background-size: cover;
+    }";
+  }
+
+  wp_add_inline_style('tent-style',  $hero_css);
+}
+
+add_action('wp_enqueue_scripts', 'inhabitent_dynamic_css');
