@@ -73,12 +73,18 @@ endforeach;
    echo ' / ';
    comments_number('0 Comments', '1 Comment', '2 Comments', '% Comments');
    ?>
+      <div class="journal-mini-meta">
 </span>
-   <a href="<?php echo get_the_permalink(); ?>"><?php the_title();?> </a>
+   <a class="journal-permalink" href="<?php echo get_the_permalink(); ?>"><?php the_title();?> </a>
    <a class="read-entry" href="<?php echo get_the_permalink(); ?>">Read Entry</a>
+   </div>
 	</article>
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
+</section>
+
+<section class="adventure">
+<h2>Latest Adventures</h2>
 </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
