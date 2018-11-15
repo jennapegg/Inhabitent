@@ -967,6 +967,8 @@ figure iframe {
         text-transform: uppercase;
         text-decoration: none;
         padding: 10px 20px; }
+        .home .shop-stuff .frontpage-shop .frontpage-term a:hover {
+          background: #19625d; }
 
 .home .front-page-journal {
   display: -webkit-box;
@@ -989,7 +991,8 @@ figure iframe {
     width: 1100px; }
     .home .front-page-journal .journal-section .journal-entrie {
       border: 1px solid #e1e1e1;
-      max-width: 350px; }
+      max-width: 350px;
+      max-height: 400px; }
       .home .front-page-journal .journal-section .journal-entrie img {
         max-height: 235px;
         border-bottom: 5px solid #e1e1e1; }
@@ -1006,7 +1009,7 @@ figure iframe {
                 flex-direction: column;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-        min-height: 100px;
+        min-height: 120px;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between; }
@@ -1017,14 +1020,20 @@ figure iframe {
           text-decoration: none;
           color: #248a83;
           text-transform: uppercase; }
+          .home .front-page-journal .journal-section .journal-entrie .journal-mini-meta a:hover {
+            color: #2f1339; }
         .home .front-page-journal .journal-section .journal-entrie .journal-mini-meta .read-entry {
           font-family: 'novecento';
           font-size: 16px;
-          color: black;
-          border: 1px solid black;
+          color: #2f1339;
+          border: 1px solid #2f1339;
           width: 140px;
           padding: 10px 20px;
-          margin: 10px; }
+          margin-left: 15px; }
+          .home .front-page-journal .journal-section .journal-entrie .journal-mini-meta .read-entry:hover {
+            background: #248a83;
+            color: #fff;
+            border: none; }
 
 .post-type-archive-product {
   background: red; }

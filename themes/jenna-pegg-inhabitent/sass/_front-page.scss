@@ -45,7 +45,9 @@
           text-transform: uppercase;
           text-decoration: none;
           padding: 10px 20px;
-          //   border-radius: 5px;
+          &:hover {
+            background: $dark-teal;
+          }
         }
       }
     }
@@ -54,7 +56,6 @@
   .front-page-journal {
     @include flex-column;
     align-items: center;
-    // align-content: center;
     .journal-section {
       display: flex;
       justify-content: space-between;
@@ -62,35 +63,44 @@
       .journal-entrie {
         border: 1px solid $light-grey;
         max-width: 350px;
+        max-height: 400px;
         img {
           max-height: 235px;
           border-bottom: 5px solid $light-grey;
         }
         .entry-data {
           font-size: 12px;
-          padding-left: 15px;
+          padding-left: $journal-left;
         }
         .journal-mini-meta {
           @include flex-column;
           flex-wrap: wrap;
-          min-height: 100px;
+          min-height: 120px;
           justify-content: space-between;
           a {
-            padding-left: 15px;
+            padding-left: $journal-left;
             font-family: 'novecento-bold';
             font-size: 22px;
             text-decoration: none;
             color: $teal;
             text-transform: uppercase;
+            &:hover {
+              color: $purple;
+            }
           }
           .read-entry {
             font-family: 'novecento';
             font-size: 16px;
-            color: black;
-            border: 1px solid black;
+            color: $purple;
+            border: 1px solid $purple;
             width: 140px;
             padding: 10px 20px;
-            margin: 10px;
+            margin-left: $journal-left;
+            &:hover {
+              background: $teal;
+              color: $white;
+              border: none;
+            }
           }
         }
       }
