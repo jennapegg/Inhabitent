@@ -3,10 +3,14 @@
     article {
       margin: 20px;
     }
+
     h2,
     a {
       color: $white;
       text-decoration: none;
+    }
+    .read-more {
+      color: $purple;
     }
     .post {
       padding-left: 50px;

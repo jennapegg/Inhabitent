@@ -3,15 +3,50 @@
 --------------------------------------------------------------*/
 
 .widget {
-	margin: 0 0 $base__space-unit;
+  margin: 0 0 $base__space-unit;
+  margin-left: 50px;
 
-	/* Make sure select elements fit in widgets. */
-	select {
-		max-width: 100%;
-	}
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
 }
 
 /* Search widget. */
 .widget_search .search-submit {
-	display: none;
+  display: none;
+}
+
+// Sidebar
+
+.widget-area {
+  @include flex-column;
+  padding-top: 50px;
+  width: 350px;
+  border-left: 1px solid $light-grey;
+  a {
+    color: $teal;
+    text-decoration: none;
+    &:hover {
+      color: $purple;
+    }
+  }
+  .day-of-week {
+    font-family: 'Merriweather-Bold';
+  }
+  .widget-title {
+    color: $purple;
+  }
+  .widget_text {
+    i {
+      padding-right: 10px;
+    }
+  }
+  .widget_archive {
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+  }
 }
