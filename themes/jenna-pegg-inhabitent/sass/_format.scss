@@ -38,6 +38,16 @@ h6 {
   }
 }
 
+.post-type-archive-product {
+  .site-content {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      'main main'
+      'main main';
+  }
+}
+
 .widget-area {
   grid-area: sidebar;
 }

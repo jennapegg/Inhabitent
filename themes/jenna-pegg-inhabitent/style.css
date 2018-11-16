@@ -354,6 +354,11 @@ h6 {
   display: grid;
   grid-template-areas: 'main main' 'main main'; }
 
+.post-type-archive-product .site-content {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 'main main' 'main main'; }
+
 .widget-area {
   grid-area: sidebar; }
 
@@ -1035,8 +1040,67 @@ figure iframe {
             color: #fff;
             border: none; }
 
-.post-type-archive-product {
-  background: red; }
+.post-type-archive-product .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .post-type-archive-product .site-content .content-area {
+    width: 1120px; }
+
+.post-type-archive-product .page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 150px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #808080; }
+  .post-type-archive-product .page-header h1 {
+    margin: 0; }
+  .post-type-archive-product .page-header .product-names {
+    width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .post-type-archive-product .page-header .product-names a {
+      color: #248a83;
+      text-decoration: none;
+      font-family: 'novecento';
+      text-transform: uppercase; }
+
+.post-type-archive-product .product-archive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .post-type-archive-product .product-archive .entry-content {
+    display: none; }
+  .post-type-archive-product .product-archive .product {
+    width: 260px; }
+    .post-type-archive-product .product-archive .product img {
+      height: 250px; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;

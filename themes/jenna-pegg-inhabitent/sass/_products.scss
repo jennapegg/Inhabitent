@@ -1,3 +1,45 @@
 .post-type-archive-product {
-  background: red;
+  .site-content {
+    @include flex-column;
+    align-items: center;
+    .content-area {
+      width: 1120px;
+    }
+  }
+  .page-header {
+    @include flex-column;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed $medium-grey;
+    h1 {
+      margin: 0;
+    }
+    .product-names {
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+      a {
+        color: $teal;
+        text-decoration: none;
+        font-family: 'novecento';
+        text-transform: uppercase;
+      }
+    }
+  }
+  .product-archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .entry-content {
+      display: none;
+    }
+    .product {
+      width: 260px;
+      img {
+        height: $product-size;
+      }
+    }
+  }
 }
