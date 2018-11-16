@@ -24,22 +24,37 @@ a {
   }
 }
 
+.main-navigation .search-field {
+  display: none;
+}
+
 /* Menus */
 
 .main-navigation {
   clear: both;
-  display: block;
-  float: left;
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
   position: fixed;
-  top: 5;
-  z-index: 100;
 
   ul {
     display: none;
     list-style: none;
     margin: 0;
     padding-left: 0;
+    li {
+      &:first-child {
+        display: none;
+      }
+      a {
+        color: white;
+        font-family: 'novecento';
+        text-transform: uppercase;
+        &:hover {
+          color: $yellow;
+        }
+      }
+    }
 
     ul {
       box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -131,4 +146,8 @@ a {
     text-align: right;
     width: 50%;
   }
+}
+
+.site-branding {
+  position: absolute;
 }
