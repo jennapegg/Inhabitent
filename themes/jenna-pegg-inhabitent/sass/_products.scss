@@ -32,13 +32,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    .entry-content {
-      display: none;
-    }
     .product {
-      width: 260px;
+      width: 263px;
+      border: 1px solid $light-grey;
       img {
-        height: $product-size;
+        height: 253px;
+        border-bottom: 5px solid $light-grey;
+      }
+      .product-info {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+        .dots {
+          overflow: hidden;
+          flex: 1;
+          &:after {
+            content: '.......................................';
+          }
+        }
       }
     }
   }
