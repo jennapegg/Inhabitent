@@ -521,11 +521,26 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  position: fixed; }
+  position: fixed;
+  background: rgba(255, 255, 255, 0.4);
+  min-height: 50px;
+  z-index: 1000; }
+  .main-navigation .tent {
+    height: 50px;
+    width: 50px;
+    margin-left: 75px; }
+  .main-navigation .nav-right {
+    width: 425px; }
+  .main-navigation i {
+    color: #248a83;
+    padding: 0 20px; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -534,9 +549,10 @@ a {
     .main-navigation ul li:first-child {
       display: none; }
     .main-navigation ul li a {
-      color: white;
+      color: #248a83;
       font-family: 'novecento';
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding: 0 10px; }
       .main-navigation ul li a:hover {
         color: #f0e4d1; }
     .main-navigation ul ul {
@@ -597,6 +613,9 @@ a {
 
 .site-branding {
   position: absolute; }
+
+.search-submit {
+  display: none; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -953,6 +972,13 @@ figure iframe {
   width: 800px;
   height: 100px; }
 
+.home .main-navigation {
+  background: none; }
+  .home .main-navigation a {
+    color: white; }
+  .home .main-navigation i {
+    color: white; }
+
 .home .content-area {
   width: 100%; }
 
@@ -1170,6 +1196,13 @@ figure iframe {
                 flex: 1; }
         .post-type-archive-product .product-archive .product .product-info .dots:after {
           content: '.......................................'; }
+
+.page-template-about .main-navigation {
+  background: none; }
+  .page-template-about .main-navigation a {
+    color: white; }
+  .page-template-about .main-navigation i {
+    color: white; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;

@@ -29,13 +29,31 @@ a {
 }
 
 /* Menus */
-
 .main-navigation {
   clear: both;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   position: fixed;
+  background: rgba(255, 255, 255, 0.4);
+  min-height: 50px;
+  z-index: 1000;
+
+  .tent {
+    height: 50px;
+    width: 50px;
+    margin-left: 75px;
+  }
+
+  .nav-right {
+    width: 425px;
+  }
+
+  i {
+    color: $teal;
+    padding: 0 20px;
+  }
 
   ul {
     display: none;
@@ -47,9 +65,10 @@ a {
         display: none;
       }
       a {
-        color: white;
+        color: $teal;
         font-family: 'novecento';
         text-transform: uppercase;
+        padding: 0 10px;
         &:hover {
           color: $yellow;
         }
@@ -80,13 +99,13 @@ a {
         width: 200px;
       }
 
-      :hover > a,
-      .focus > a {
-      }
+      //   :hover > a,
+      //   .focus > a {
+      //   }
 
-      a:hover,
-      a.focus {
-      }
+      //   a:hover,
+      //   a.focus {
+      //   }
     }
 
     li:hover > ul,
@@ -98,19 +117,19 @@ a {
     float: left;
     position: relative;
 
-    &:hover > a,
-    &.focus > a {
-    }
+    // &:hover > a,
+    // &.focus > a {
+    // }
   }
   a {
     display: block;
     text-decoration: none;
   }
 
-  .current_page_item > a,
-  .current-menu-item > a,
-  .current_page_ancestor > a {
-  }
+  //   .current_page_item > a,
+  //   .current-menu-item > a,
+  //   .current_page_ancestor > a {
+  //   }
 }
 
 /* Small menu. */
@@ -150,4 +169,8 @@ a {
 
 .site-branding {
   position: absolute;
+}
+
+.search-submit {
+  display: none;
 }

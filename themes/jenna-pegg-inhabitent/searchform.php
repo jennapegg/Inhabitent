@@ -4,7 +4,7 @@
 		</label>
 		<span class="icon-search" aria-hidden="true">
 				<i class="fa fa-search"></i>
-			</span>
+		</span>
 
 		<button class="search-submit">
 			<span class="screen-reader-text"><?php echo esc_html( 'Type and hit enter' ); ?></span>

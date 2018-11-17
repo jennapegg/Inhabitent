@@ -1,4 +1,17 @@
 .home {
+  .main-navigation {
+    background: none;
+    a {
+      color: white;
+    }
+    i {
+      color: white;
+    }
+    // .tent {
+    //   background: url(../../images/inhabitent-logo-tent.svg) no-repeat;
+    // }
+  }
+
   .content-area {
     width: 100%;
   }
