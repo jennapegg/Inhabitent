@@ -1,6 +1,22 @@
-figure {
-  iframe {
-    width: 800px;
-    height: 100px;
+.page-template-default {
+  .content-area {
+    padding-left: 75px;
+    padding-top: 50px;
+  }
+  figure {
+    margin: 0;
+    iframe {
+      width: 800px;
+      height: 250px;
+      border: none;
+    }
+  }
+
+  h1,
+  h2 {
+    font-size: 35px;
+  }
+  h2 {
+    color: $purple;
   }
 }
