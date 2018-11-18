@@ -40,6 +40,16 @@ a {
   min-height: 50px;
   z-index: 1000;
 
+  .search-field {
+    background: transparent;
+    border: none;
+  }
+
+  input[type='search'] {
+    border: none;
+    border-radius: none;
+  }
+
   .tent {
     height: 50px;
     width: 50px;
@@ -47,7 +57,10 @@ a {
   }
 
   .nav-right {
-    width: 425px;
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    padding-right: 75px;
   }
 
   i {

@@ -532,12 +532,25 @@ a {
   background: rgba(255, 255, 255, 0.4);
   min-height: 50px;
   z-index: 1000; }
+  .main-navigation .search-field {
+    background: transparent;
+    border: none; }
+  .main-navigation input[type='search'] {
+    border: none;
+    border-radius: none; }
   .main-navigation .tent {
     height: 50px;
     width: 50px;
     margin-left: 75px; }
   .main-navigation .nav-right {
-    width: 425px; }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+    padding-right: 75px; }
   .main-navigation i {
     color: #248a83;
     padding: 0 20px; }
