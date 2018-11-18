@@ -1,6 +1,7 @@
 // TODO:  add overflow hide to images
 
-.post-type-archive-product {
+.post-type-archive-product,
+.tax-product_type {
   .site-content {
     @include flex-column;
     align-items: center;

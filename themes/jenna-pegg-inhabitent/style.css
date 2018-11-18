@@ -982,25 +982,26 @@ object {
             box-shadow: none;
     text-shadow: none; }
 
-.page-template-default .content-area {
+.page-id-25 .content-area {
   padding-left: 75px;
   padding-top: 50px; }
 
-.page-template-default figure {
+.page-id-25 figure {
   margin: 0; }
-  .page-template-default figure iframe {
+  .page-id-25 figure iframe {
     width: 800px;
     height: 250px;
     border: none; }
 
-.page-template-default h1,
-.page-template-default h2 {
+.page-id-25 h1,
+.page-id-25 h2 {
   font-size: 35px; }
 
-.page-template-default h2 {
+.page-id-25 h2 {
   color: #2f1339; }
 
 .home .main-navigation {
+  border-bottom: none;
   background: none; }
   .home .main-navigation a {
     color: white; }
@@ -1144,7 +1145,8 @@ object {
             color: #fff;
             border: none; }
 
-.post-type-archive-product .site-content {
+.post-type-archive-product .site-content,
+.tax-product_type .site-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1155,10 +1157,12 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .post-type-archive-product .site-content .content-area {
+  .post-type-archive-product .site-content .content-area,
+  .tax-product_type .site-content .content-area {
     width: 1120px; }
 
-.post-type-archive-product .page-header {
+.post-type-archive-product .page-header,
+.tax-product_type .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1174,9 +1178,11 @@ object {
   height: 150px;
   margin-bottom: 20px;
   border-bottom: 1px dashed #808080; }
-  .post-type-archive-product .page-header h1 {
+  .post-type-archive-product .page-header h1,
+  .tax-product_type .page-header h1 {
     margin: 0; }
-  .post-type-archive-product .page-header .product-names {
+  .post-type-archive-product .page-header .product-names,
+  .tax-product_type .page-header .product-names {
     width: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1184,13 +1190,15 @@ object {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    .post-type-archive-product .page-header .product-names a {
+    .post-type-archive-product .page-header .product-names a,
+    .tax-product_type .page-header .product-names a {
       color: #248a83;
       text-decoration: none;
       font-family: 'novecento';
       text-transform: uppercase; }
 
-.post-type-archive-product .product-archive {
+.post-type-archive-product .product-archive,
+.tax-product_type .product-archive {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1199,13 +1207,16 @@ object {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .post-type-archive-product .product-archive .product {
+  .post-type-archive-product .product-archive .product,
+  .tax-product_type .product-archive .product {
     width: 263px;
     border: 1px solid #e1e1e1; }
-    .post-type-archive-product .product-archive .product img {
+    .post-type-archive-product .product-archive .product img,
+    .tax-product_type .product-archive .product img {
       height: 253px;
       border-bottom: 5px solid #e1e1e1; }
-    .post-type-archive-product .product-archive .product .product-info {
+    .post-type-archive-product .product-archive .product .product-info,
+    .tax-product_type .product-archive .product .product-info {
       height: 50px;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1217,12 +1228,14 @@ object {
           -ms-flex-pack: justify;
               justify-content: space-between;
       padding: 0 15px; }
-      .post-type-archive-product .product-archive .product .product-info .dots {
+      .post-type-archive-product .product-archive .product .product-info .dots,
+      .tax-product_type .product-archive .product .product-info .dots {
         overflow: hidden;
         -webkit-box-flex: 1;
             -ms-flex: 1;
                 flex: 1; }
-        .post-type-archive-product .product-archive .product .product-info .dots:after {
+        .post-type-archive-product .product-archive .product .product-info .dots:after,
+        .tax-product_type .product-archive .product .product-info .dots:after {
           content: '.......................................'; }
 
 .page-template-about .main-navigation {
