@@ -1270,25 +1270,38 @@ object {
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;
   background-size: cover;
-  color: white; }
+  color: white;
+  height: 350px; }
   .site-footer .site-info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    .site-footer .site-info img {
+      width: 275px;
+      margin-left: 275px;
+      margin-bottom: 110px; }
     .site-footer .site-info h6 {
-      font-size: 1rem;
-      color: orange; }
+      font-size: 20px;
+      color: #d99054;
+      margin: 0; }
 
 .contact {
-  margin: 15px; }
+  margin: 55px; }
   .contact a {
     color: white;
     text-decoration: none; }
   .contact i {
     padding-right: 5px; }
 
+.bussiness {
+  margin: 50px; }
+  .bussiness span {
+    font-family: 'Merriweather-Bold'; }
+
 .social-media i {
   padding: 0 10px 0 10px; }
 
-.business {
-  margin: 15px; }
+.copyright {
+  text-align: center;
+  font-family: 'novecento';
+  text-transform: uppercase; }

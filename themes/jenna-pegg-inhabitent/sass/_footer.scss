@@ -2,17 +2,24 @@
   background: url(../../images/dark-wood.png) no-repeat center bottom;
   background-size: cover;
   color: white;
+  height: 350px;
   .site-info {
     display: flex;
+    img {
+      width: 275px;
+      margin-left: 275px;
+      margin-bottom: 110px;
+    }
     h6 {
-      font-size: 1rem;
-      color: orange;
+      font-size: 20px;
+      color: $orange;
+      margin: 0;
     }
   }
 }
 
 .contact {
-  margin: 15px;
+  margin: 55px;
   a {
     color: white;
     text-decoration: none;
@@ -22,12 +29,21 @@
   }
 }
 
+.bussiness {
+  margin: 50px;
+  span {
+    font-family: 'Merriweather-Bold';
+  }
+}
+
 .social-media {
   i {
     padding: 0 10px 0 10px;
   }
 }
 
-.business {
-  margin: 15px;
+.copyright {
+  text-align: center;
+  font-family: 'novecento';
+  text-transform: uppercase;
 }

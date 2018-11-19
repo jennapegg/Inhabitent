@@ -24,11 +24,13 @@
 					
 					<div class="bussiness">
 					<h6>Business Hours</h6>
-					<p>Monday-Friday: 9am to 5pm</p>
-					<p>Saturday: 10am to 2pm</p>
-					<p>Sunday: Closed</p>
+					<p><span>Monday-Friday:</span> 9am to 5pm</p>
+					<p><span>Saturday:</span> 10am to 2pm</p>
+					<p><span>Sunday:</span> Closed</p>
 					</div>
+					<img src="<?php echo get_template_directory_uri() ?> /images/inhabitent-logo-text.svg" alt="">
 				</div><!-- .site-info -->
+				<p class="copyright">Copyright &copy; 2019 Inhabitent</p>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
 
