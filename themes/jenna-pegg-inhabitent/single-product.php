@@ -20,17 +20,15 @@ get_header(); ?>
 			<?php the_post_thumbnail( 'large' ); ?>
 		<?php endif; ?>
 
+
+		<div class="single-product-meta">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-
-		<?php echo CFS()->get( 'price' ); 
+			<p class="single-product-price">
+			<?php 
+			echo '$';
+			echo CFS()->get( 'price' ); 
 		?>
-		
-
-		<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-		</div><!-- .entry-meta -->
-	</header><!-- .entry-header -->
-
+			</p>
 	<div class="entry-content">
 		<?php the_content(); ?>
 		<?php
@@ -39,8 +37,14 @@ get_header(); ?>
 				'after'  => '</div>',
 			) );
 		?>
+		<div class="single-product-links">
+			<p><i class="fab fa-facebook-f"></i><a href="#">Like</a></p>
+			<p><i class="fab fa-twitter"></i><a href="#">Tweet</a></p>
+			<p><i class="fab fa-pinterest"></i><a href="#">Pin</a></p>
+		</div>
+			</div> <!-- single-product-meta -->
 	</div><!-- .entry-content -->
-
+	</header><!-- .entry-header -->
 	<footer class="entry-footer">
 		<?php red_starter_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
@@ -60,5 +64,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

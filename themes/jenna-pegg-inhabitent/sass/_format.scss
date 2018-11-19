@@ -48,6 +48,16 @@ h6 {
   }
 }
 
+.single-product {
+  .site-content {
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      'main main'
+      'main main';
+  }
+}
+
 .widget-area {
   grid-area: sidebar;
 }

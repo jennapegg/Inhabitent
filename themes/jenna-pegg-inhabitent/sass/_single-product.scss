@@ -1,0 +1,55 @@
+.single-product {
+  .entry-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    img {
+      width: 550px;
+      height: 400px;
+      margin-left: 75px;
+    }
+    .single-product-price {
+      font-family: 'novecento';
+      font-size: 30px;
+      padding: 0;
+      margin: 0;
+    }
+    h1 {
+      color: $orange;
+      font-size: 40px;
+      padding: 0;
+      margin: 0;
+    }
+    .single-product-meta {
+      height: 425px;
+      width: 525px;
+      margin-left: 50px;
+      p {
+        line-height: 1.75rem;
+      }
+    }
+    .single-product-links {
+      display: flex;
+      p {
+        padding: 5px 25px;
+        border: 1px solid $purple;
+        font-size: 15px;
+        margin-right: 5px;
+        a {
+          color: $purple;
+          text-decoration: none;
+          font-family: 'novecento';
+          text-transform: uppercase;
+        }
+        i {
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.post-navigation,
+.nav-links {
+  display: none;
+}
