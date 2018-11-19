@@ -1514,6 +1514,36 @@ object {
       .single-product .entry-header .single-product-links p i {
         padding-right: 5px; }
 
+.comments-area article,
+.comments-area .comment-list {
+  padding: 0;
+  margin: 0; }
+
+.comments-area article {
+  width: 750px; }
+
+.comments-area ul {
+  padding: 20px 0; }
+
+.comments-area .comment-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e1e1e1; }
+  .comments-area .comment-body a {
+    color: #248a83;
+    text-decoration: none; }
+
+.comments-area .comment-meta {
+  width: 300px; }
+
+.comments-area .comment-author-avatar {
+  padding-right: 20px; }
+  .comments-area .comment-author-avatar img {
+    width: 60px;
+    height: auto;
+    border-radius: 50px; }
+
 .post-navigation,
 .nav-links {
   display: none; }

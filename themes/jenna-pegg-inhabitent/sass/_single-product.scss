@@ -57,6 +57,39 @@
   }
 }
 
+.comments-area {
+  article,
+  .comment-list {
+    padding: 0;
+    margin: 0;
+  }
+  article {
+    width: 750px;
+  }
+  ul {
+    padding: 20px 0;
+  }
+  .comment-body {
+    a {
+      color: $teal;
+      text-decoration: none;
+    }
+    display: flex;
+    border-bottom: 1px solid $light-grey;
+  }
+  .comment-meta {
+    width: 300px;
+  }
+  .comment-author-avatar {
+    padding-right: 20px;
+    img {
+      width: 60px;
+      height: auto;
+      border-radius: 50px;
+    }
+  }
+}
+
 .post-navigation,
 .nav-links {
   display: none;
