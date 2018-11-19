@@ -81,7 +81,9 @@
   width: 750px;
   font-family: 'novecento';
   text-transform: uppercase;
-
+  span {
+    color: $orange;
+  }
   h3 {
     font-size: 30px;
   }
@@ -95,6 +97,7 @@
     width: 49%;
     #author {
       background: $comment-grey;
+      width: 100%;
     }
   }
 
@@ -104,6 +107,7 @@
     margin-left: 2%;
     #email {
       background: $comment-grey;
+      width: 100%;
     }
   }
 
@@ -112,6 +116,7 @@
     width: 750px;
     #url {
       background: $comment-grey;
+      width: 100%;
     }
   }
 }
