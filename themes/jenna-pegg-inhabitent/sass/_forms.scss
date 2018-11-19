@@ -45,8 +45,11 @@ input[type='password'],
 input[type='search'],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 3px;
+  background: $comment-grey;
+  width: 200px;
+  height: 35px;
 
   &:focus {
     color: #111;

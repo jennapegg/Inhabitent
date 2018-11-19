@@ -481,8 +481,11 @@ input[type='password'],
 input[type='search'],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
+  border: none;
+  border-radius: 3px;
+  background: #eeeeee;
+  width: 200px;
+  height: 35px; }
   input[type='text']:focus,
   input[type='email']:focus,
   input[type='url']:focus,
@@ -1463,6 +1466,28 @@ object {
 .post-navigation,
 .nav-links {
   display: none; }
+
+.error-404 {
+  margin-top: 100px;
+  margin-left: 75px; }
+  .error-404 i {
+    display: none; }
+  .error-404 h2 {
+    color: #2f1339; }
+  .error-404 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .error-404 a {
+    color: #248a83;
+    text-decoration: none; }
+  .error-404 .widget_recent_entries,
+  .error-404 .widget_archive,
+  .error-404 .widget_categories {
+    margin: 0;
+    padding: 0; }
+  .error-404 .widget_archive {
+    margin-bottom: 50px; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;
