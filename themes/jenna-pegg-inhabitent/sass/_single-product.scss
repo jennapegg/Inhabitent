@@ -35,6 +35,14 @@
         border: 1px solid $purple;
         font-size: 15px;
         margin-right: 5px;
+        &:hover {
+          border: none;
+          background: $teal;
+          color: white;
+          a {
+            color: white;
+          }
+        }
         a {
           color: $purple;
           text-decoration: none;

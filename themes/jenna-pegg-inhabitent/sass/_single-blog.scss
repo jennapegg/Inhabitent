@@ -1,5 +1,6 @@
 .single-post {
   article {
+    margin-top: 100px;
     padding-left: 70px;
     width: 825px;
     img {
@@ -39,6 +40,33 @@
     a {
       color: $teal;
       text-decoration: none;
+    }
+  }
+  .single-journal-share {
+    display: flex;
+    margin-left: 75px;
+    p {
+      border: 1px solid $purple;
+      padding: 5px 15px;
+      margin-right: 5px;
+      font-size: 15px;
+      &:hover {
+        border: none;
+        background: $teal;
+        color: white;
+        a {
+          color: white;
+        }
+      }
+      i {
+        margin-right: 5px;
+      }
+      a {
+        color: $purple;
+        text-decoration: none;
+        font-family: 'novecento';
+        text-transform: uppercase;
+      }
     }
   }
   .nav-next,

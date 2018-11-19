@@ -10,6 +10,7 @@
     }
   }
   .page-header {
+    margin-top: 50px;
     @include flex-column;
     align-items: center;
     justify-content: space-around;
@@ -38,6 +39,7 @@
     .product {
       width: 263px;
       border: 1px solid $light-grey;
+
       img {
         height: 253px;
         border-bottom: 5px solid $light-grey;

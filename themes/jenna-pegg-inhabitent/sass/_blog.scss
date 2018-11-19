@@ -1,5 +1,6 @@
 .blog {
   .content-area {
+    margin-top: 50px;
     article {
       margin: 20px;
     }
@@ -11,6 +12,19 @@
     }
     .read-more {
       color: $purple;
+      border: 1px solid $purple;
+      padding: 10px 20px;
+      font-family: 'novecento';
+      text-transform: uppercase;
+      &:hover {
+        border: none;
+        background: $teal;
+        color: white;
+
+        a {
+          color: white;
+        }
+      }
     }
     .post {
       padding-left: 50px;

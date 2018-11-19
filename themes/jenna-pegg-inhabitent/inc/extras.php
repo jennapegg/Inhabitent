@@ -119,7 +119,7 @@ Replace the exerpt read more
 */
 function inhabitent_excerpt_more($more){
 global $post;
-return '<a class="read-more" href="' . get_permalink($post->ID) . '"> Read More</a>';
+return '<p><a class="read-more" href="' . get_permalink($post->ID) . '"> Read More <i class="fas fa-long-arrow-alt-right"></i></a></p>';
 }
 
 add_filter('excerpt_more', 'inhabitent_excerpt_more');

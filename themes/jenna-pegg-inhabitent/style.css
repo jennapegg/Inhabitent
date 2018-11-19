@@ -837,45 +837,53 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.blog .content-area article {
-  margin: 20px; }
-
-.blog .content-area h2,
-.blog .content-area a {
-  color: #fff;
-  text-decoration: none; }
-
-.blog .content-area .read-more {
-  color: #2f1339; }
-
-.blog .content-area .post {
-  padding-left: 50px;
-  width: 825px; }
-
-.blog .content-area .entry-header {
-  position: relative; }
-  .blog .content-area .entry-header h2 {
-    position: absolute;
-    width: 575px;
-    top: 0rem;
-    font-size: 35px;
-    line-height: 2.5rem;
+.blog .content-area {
+  margin-top: 50px; }
+  .blog .content-area article {
+    margin: 20px; }
+  .blog .content-area h2,
+  .blog .content-area a {
     color: #fff;
-    background: #248a83;
-    padding: 10px; }
-  .blog .content-area .entry-header .entry-meta {
-    position: absolute;
-    bottom: 1rem;
-    right: 0rem;
-    color: #fff;
-    background: #248a83;
-    padding: 10px; }
-
-.blog .content-area img {
-  height: auto;
-  width: 825px; }
+    text-decoration: none; }
+  .blog .content-area .read-more {
+    color: #2f1339;
+    border: 1px solid #2f1339;
+    padding: 10px 20px;
+    font-family: 'novecento';
+    text-transform: uppercase; }
+    .blog .content-area .read-more:hover {
+      border: none;
+      background: #248a83;
+      color: white; }
+      .blog .content-area .read-more:hover a {
+        color: white; }
+  .blog .content-area .post {
+    padding-left: 50px;
+    width: 825px; }
+  .blog .content-area .entry-header {
+    position: relative; }
+    .blog .content-area .entry-header h2 {
+      position: absolute;
+      width: 575px;
+      top: 0rem;
+      font-size: 35px;
+      line-height: 2.5rem;
+      color: #fff;
+      background: #248a83;
+      padding: 10px; }
+    .blog .content-area .entry-header .entry-meta {
+      position: absolute;
+      bottom: 1rem;
+      right: 0rem;
+      color: #fff;
+      background: #248a83;
+      padding: 10px; }
+  .blog .content-area img {
+    height: auto;
+    width: 825px; }
 
 .single-post article {
+  margin-top: 100px;
   padding-left: 70px;
   width: 825px; }
   .single-post article img {
@@ -913,6 +921,30 @@ object {
   .single-post .tags-links a {
     color: #248a83;
     text-decoration: none; }
+
+.single-post .single-journal-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 75px; }
+  .single-post .single-journal-share p {
+    border: 1px solid #2f1339;
+    padding: 5px 15px;
+    margin-right: 5px;
+    font-size: 15px; }
+    .single-post .single-journal-share p:hover {
+      border: none;
+      background: #248a83;
+      color: white; }
+      .single-post .single-journal-share p:hover a {
+        color: white; }
+    .single-post .single-journal-share p i {
+      margin-right: 5px; }
+    .single-post .single-journal-share p a {
+      color: #2f1339;
+      text-decoration: none;
+      font-family: 'novecento';
+      text-transform: uppercase; }
 
 .single-post .nav-next,
 .single-post .nav-previous {
@@ -1168,6 +1200,7 @@ object {
 
 .post-type-archive-product .page-header,
 .tax-product_type .page-header {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1309,6 +1342,12 @@ object {
       border: 1px solid #2f1339;
       font-size: 15px;
       margin-right: 5px; }
+      .single-product .entry-header .single-product-links p:hover {
+        border: none;
+        background: #248a83;
+        color: white; }
+        .single-product .entry-header .single-product-links p:hover a {
+          color: white; }
       .single-product .entry-header .single-product-links p a {
         color: #2f1339;
         text-decoration: none;
@@ -1331,7 +1370,9 @@ object {
     display: -ms-flexbox;
     display: flex; }
     .site-footer .site-info img {
-      width: 275px; }
+      width: 275px;
+      margin-left: 275px;
+      margin-bottom: 110px; }
     .site-footer .site-info h6 {
       font-size: 20px;
       color: #d99054;
