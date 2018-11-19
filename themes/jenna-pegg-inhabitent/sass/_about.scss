@@ -3,6 +3,9 @@
     background: none;
     a {
       color: white;
+      &:hover {
+        color: $yellow;
+      }
     }
     i {
       color: white;

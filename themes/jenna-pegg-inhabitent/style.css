@@ -677,7 +677,7 @@ a {
       text-transform: uppercase;
       padding: 0 10px; }
       .main-navigation ul li a:hover {
-        color: #f0e4d1; }
+        color: #2f1339; }
     .main-navigation ul ul {
       -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
               box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -1146,6 +1146,8 @@ object {
   background: none; }
   .home .main-navigation a {
     color: white; }
+    .home .main-navigation a:hover {
+      color: #f0e4d1; }
   .home .main-navigation i {
     color: white; }
 
@@ -1387,6 +1389,8 @@ object {
   background: none; }
   .page-template-about .main-navigation a {
     color: white; }
+    .page-template-about .main-navigation a:hover {
+      color: #f0e4d1; }
   .page-template-about .main-navigation i {
     color: white; }
 
@@ -1488,6 +1492,34 @@ object {
     padding: 0; }
   .error-404 .widget_archive {
     margin-bottom: 50px; }
+
+.search-results .site-main {
+  margin-top: 100px;
+  margin-left: 75px; }
+  .search-results .site-main h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    width: 750px;
+    border-bottom: 1px solid #e1e1e1; }
+  .search-results .site-main h2 {
+    font-size: 35px; }
+    .search-results .site-main h2 a {
+      color: #248a83;
+      text-decoration: none; }
+      .search-results .site-main h2 a:hover {
+        color: #2f1339; }
+  .search-results .site-main article {
+    width: 750px; }
+
+.search-results .read-more {
+  color: #2f1339;
+  text-decoration: none;
+  border: 1px solid #2f1339;
+  padding: 10px 20px; }
+  .search-results .read-more:hover {
+    border: none;
+    color: white;
+    background: #248a83; }
 
 .site-footer {
   background: url(../../images/dark-wood.png) no-repeat center bottom;
