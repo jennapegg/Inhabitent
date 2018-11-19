@@ -105,7 +105,7 @@ Filter Product Archive Title
 function inhabitent_archive_title( $title ){
   if ( is_post_type_archive( 'product' ) ){
     $title = 'Shop Stuff';
-  } elseif ( is_tax( product_type() ) ) {
+  } elseif ( is_tax( 'product_type' ) ) {
     $title = sprintf( '%1$s', single_term_title( '', false ) );
   }
 

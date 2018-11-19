@@ -17,17 +17,7 @@ get_header(); ?>
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 				?>
 
-			<div class="product-names">
-				<?php 
-				$terms = get_terms(array(
-					'taxonomy' => 'product_type',
-					'hide_empty' => 0,
-				));
-				?>
-				<?php foreach ($terms as $term):?>
-				<a href="<?php echo get_term_link($term); ?>"><?php echo $term->name;?></a>
-				<?php endforeach; ?>
-			</div>
+				<p><?php echo term_description(); ?></p>
 
 			</header><!-- .page-header -->
 
