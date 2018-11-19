@@ -70,6 +70,7 @@ function inhabitent_dynamic_css(){
       justify-content: center;
       align-items: center; 
       background-size: cover;
+      background-position: bottom;
     }";
   }
 

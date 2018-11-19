@@ -1,6 +1,7 @@
 .page-template-about {
   .main-navigation {
     background: none;
+    border: none;
     a {
       color: white;
       &:hover {
@@ -11,22 +12,14 @@
       color: white;
     }
   }
-  .entry-content {
+  .about-content {
     @include flex-column;
     align-items: center;
-    width: 100%;
+    margin: 0 225px;
     h2 {
       font-size: 35px;
       color: $purple;
-    }
-    p:nth-of-type(2) {
-      width: 800px;
-    }
-    p:nth-of-type(3) {
-      width: 800px;
-    }
-    p:nth-of-type(5) {
-      width: 800px;
+      text-align: center;
     }
   }
 }
