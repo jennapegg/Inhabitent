@@ -1,21 +1,15 @@
-# RED Starter
+# Inhabitent
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+This site is a worpress theme for the website Inhabitent, a creation of Red Academy used for students to practice their worpress skills. This site includes several static (about, find us, etc) as well as dynamic (journal, products, etc) pages, which show a variety of skills such as custom plugins, use of wordpress classes and php.
 
-## Installation
+# Getting Started
 
-### 1. Download me (don't clone me!)
+First you will need to download wordpress, in the wp-content folder, add the theme jenna-pegg-inhabitent. Then the theme will be in your wordpress system, and you just have to select it in your backend wordpress admin section. 
 
-Then add me to your `wp-content` directory.
+# Built With
+-WordPress
+-VS Code
 
-### 2. Rename the `redstarter-master` directory
+# Authors
 
-Make sure that the theme directory name is project appropriate!
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
+Jenna Pegg
