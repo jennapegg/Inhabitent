@@ -505,65 +505,65 @@ textarea {
   padding-left: 3px;
   width: 100%; }
 
-.page-template-about input[type='text'],
-.page-template-about input[type='email'],
-.page-template-about input[type='url'],
-.page-template-about input[type='password'],
-.page-template-about input[type='search'],
-.home input[type='text'],
-.home input[type='email'],
-.home input[type='url'],
-.home input[type='password'],
-.home input[type='search'] {
+.page-template-about .main-navigation input[type='text'],
+.page-template-about .main-navigation input[type='email'],
+.page-template-about .main-navigation input[type='url'],
+.page-template-about .main-navigation input[type='password'],
+.page-template-about .main-navigation input[type='search'],
+.home .main-navigation input[type='text'],
+.home .main-navigation input[type='email'],
+.home .main-navigation input[type='url'],
+.home .main-navigation input[type='password'],
+.home .main-navigation input[type='search'] {
   padding: 3px;
   color: #f0e4d1; }
-  .page-template-about input[type='text']:focus,
-  .page-template-about input[type='email']:focus,
-  .page-template-about input[type='url']:focus,
-  .page-template-about input[type='password']:focus,
-  .page-template-about input[type='search']:focus,
-  .home input[type='text']:focus,
-  .home input[type='email']:focus,
-  .home input[type='url']:focus,
-  .home input[type='password']:focus,
-  .home input[type='search']:focus {
+  .page-template-about .main-navigation input[type='text']:focus,
+  .page-template-about .main-navigation input[type='email']:focus,
+  .page-template-about .main-navigation input[type='url']:focus,
+  .page-template-about .main-navigation input[type='password']:focus,
+  .page-template-about .main-navigation input[type='search']:focus,
+  .home .main-navigation input[type='text']:focus,
+  .home .main-navigation input[type='email']:focus,
+  .home .main-navigation input[type='url']:focus,
+  .home .main-navigation input[type='password']:focus,
+  .home .main-navigation input[type='search']:focus {
     color: #f0e4d1; }
-    .page-template-about input[type='text']:focus::-webkit-input-placeholder,
-    .page-template-about input[type='email']:focus::-webkit-input-placeholder,
-    .page-template-about input[type='url']:focus::-webkit-input-placeholder,
-    .page-template-about input[type='password']:focus::-webkit-input-placeholder,
-    .page-template-about input[type='search']:focus::-webkit-input-placeholder,
-    .home input[type='text']:focus::-webkit-input-placeholder,
-    .home input[type='email']:focus::-webkit-input-placeholder,
-    .home input[type='url']:focus::-webkit-input-placeholder,
-    .home input[type='password']:focus::-webkit-input-placeholder,
-    .home input[type='search']:focus::-webkit-input-placeholder {
+    .page-template-about .main-navigation input[type='text']:focus::-webkit-input-placeholder,
+    .page-template-about .main-navigation input[type='email']:focus::-webkit-input-placeholder,
+    .page-template-about .main-navigation input[type='url']:focus::-webkit-input-placeholder,
+    .page-template-about .main-navigation input[type='password']:focus::-webkit-input-placeholder,
+    .page-template-about .main-navigation input[type='search']:focus::-webkit-input-placeholder,
+    .home .main-navigation input[type='text']:focus::-webkit-input-placeholder,
+    .home .main-navigation input[type='email']:focus::-webkit-input-placeholder,
+    .home .main-navigation input[type='url']:focus::-webkit-input-placeholder,
+    .home .main-navigation input[type='password']:focus::-webkit-input-placeholder,
+    .home .main-navigation input[type='search']:focus::-webkit-input-placeholder {
       color: #f0e4d1;
       font-family: 'novecento';
       text-transform: uppercase; }
-    .page-template-about input[type='text']:focus::-ms-input-placeholder,
-    .page-template-about input[type='email']:focus::-ms-input-placeholder,
-    .page-template-about input[type='url']:focus::-ms-input-placeholder,
-    .page-template-about input[type='password']:focus::-ms-input-placeholder,
-    .page-template-about input[type='search']:focus::-ms-input-placeholder,
-    .home input[type='text']:focus::-ms-input-placeholder,
-    .home input[type='email']:focus::-ms-input-placeholder,
-    .home input[type='url']:focus::-ms-input-placeholder,
-    .home input[type='password']:focus::-ms-input-placeholder,
-    .home input[type='search']:focus::-ms-input-placeholder {
+    .page-template-about .main-navigation input[type='text']:focus::-ms-input-placeholder,
+    .page-template-about .main-navigation input[type='email']:focus::-ms-input-placeholder,
+    .page-template-about .main-navigation input[type='url']:focus::-ms-input-placeholder,
+    .page-template-about .main-navigation input[type='password']:focus::-ms-input-placeholder,
+    .page-template-about .main-navigation input[type='search']:focus::-ms-input-placeholder,
+    .home .main-navigation input[type='text']:focus::-ms-input-placeholder,
+    .home .main-navigation input[type='email']:focus::-ms-input-placeholder,
+    .home .main-navigation input[type='url']:focus::-ms-input-placeholder,
+    .home .main-navigation input[type='password']:focus::-ms-input-placeholder,
+    .home .main-navigation input[type='search']:focus::-ms-input-placeholder {
       color: #f0e4d1;
       font-family: 'novecento';
       text-transform: uppercase; }
-    .page-template-about input[type='text']:focus::placeholder,
-    .page-template-about input[type='email']:focus::placeholder,
-    .page-template-about input[type='url']:focus::placeholder,
-    .page-template-about input[type='password']:focus::placeholder,
-    .page-template-about input[type='search']:focus::placeholder,
-    .home input[type='text']:focus::placeholder,
-    .home input[type='email']:focus::placeholder,
-    .home input[type='url']:focus::placeholder,
-    .home input[type='password']:focus::placeholder,
-    .home input[type='search']:focus::placeholder {
+    .page-template-about .main-navigation input[type='text']:focus::placeholder,
+    .page-template-about .main-navigation input[type='email']:focus::placeholder,
+    .page-template-about .main-navigation input[type='url']:focus::placeholder,
+    .page-template-about .main-navigation input[type='password']:focus::placeholder,
+    .page-template-about .main-navigation input[type='search']:focus::placeholder,
+    .home .main-navigation input[type='text']:focus::placeholder,
+    .home .main-navigation input[type='email']:focus::placeholder,
+    .home .main-navigation input[type='url']:focus::placeholder,
+    .home .main-navigation input[type='password']:focus::placeholder,
+    .home .main-navigation input[type='search']:focus::placeholder {
       color: #f0e4d1;
       font-family: 'novecento';
       text-transform: uppercase; }
@@ -1189,14 +1189,14 @@ object {
   text-transform: uppercase;
   font-size: 16px; }
 
-.home .main-navigation {
+.home .colors {
   border-bottom: none;
   background: none; }
-  .home .main-navigation a {
+  .home .colors a {
     color: white; }
-    .home .main-navigation a:hover {
+    .home .colors a:hover {
       color: #f0e4d1; }
-  .home .main-navigation i {
+  .home .colors i {
     color: white; }
 
 .home .content-area {
@@ -1433,14 +1433,17 @@ object {
 .tax-product_type .content-area {
   margin: 50px 0; }
 
-.page-template-about .main-navigation {
+.page-template-about .colors {
   background: none;
-  border: none; }
-  .page-template-about .main-navigation a {
+  border: none;
+  color: white; }
+  .page-template-about .colors a,
+  .page-template-about .colors a:visited {
     color: white; }
-    .page-template-about .main-navigation a:hover {
+    .page-template-about .colors a:hover,
+    .page-template-about .colors a:visited:hover {
       color: #f0e4d1; }
-  .page-template-about .main-navigation i {
+  .page-template-about .colors i {
     color: white; }
 
 .page-template-about .about-content {

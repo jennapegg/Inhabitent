@@ -71,19 +71,21 @@ textarea {
 
 .page-template-about,
 .home {
-  input[type='text'],
-  input[type='email'],
-  input[type='url'],
-  input[type='password'],
-  input[type='search'] {
-    padding: 3px;
-    color: $yellow;
-    &:focus {
+  .main-navigation {
+    input[type='text'],
+    input[type='email'],
+    input[type='url'],
+    input[type='password'],
+    input[type='search'] {
+      padding: 3px;
       color: $yellow;
-      &::placeholder {
+      &:focus {
         color: $yellow;
-        font-family: 'novecento';
-        text-transform: uppercase;
+        &::placeholder {
+          color: $yellow;
+          font-family: 'novecento';
+          text-transform: uppercase;
+        }
       }
     }
   }

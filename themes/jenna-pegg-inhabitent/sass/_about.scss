@@ -1,17 +1,19 @@
 .page-template-about {
-  .main-navigation {
-    background: none;
-    border: none;
-    a {
-      color: white;
-      &:hover {
-        color: $yellow;
-      }
-    }
-    i {
-      color: white;
+    .colors{
+  background: none;
+  border: none;
+  color: white;
+  a,
+  a:visited {
+    color: white;
+    &:hover {
+      color: $yellow;
     }
   }
+  i {
+    color: white;
+  }
+}
   .about-content {
     @include flex-column;
     align-items: center;
@@ -23,3 +25,5 @@
     }
   }
 }
+
+
