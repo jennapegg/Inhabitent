@@ -70,6 +70,7 @@
   .front-page-journal {
     @include flex-column;
     align-items: center;
+    margin-bottom: 50px;
     .journal-section {
       display: flex;
       justify-content: space-between;

@@ -4,7 +4,7 @@ This site is a worpress theme for the website Inhabitent, a creation of Red Acad
 
 # Getting Started
 
-First you will need to download wordpress, in the wp-content folder, add the theme jenna-pegg-inhabitent. Then the theme will be in your wordpress system, and you just have to select it in your backend wordpress admin section. 
+First you will need to download wordpress, in the wp-content folder, add the theme jenna-pegg-inhabitent. Then the theme will be in your wordpress system, and you just have to select it in your backend wordpress admin theme section. 
 
 # Built With
 -WordPress

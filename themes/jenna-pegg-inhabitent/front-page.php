@@ -82,10 +82,6 @@ endforeach;
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
 </section>
-
-<section class="adventure">
-<h2>Latest Adventures</h2>
-</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
