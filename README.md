@@ -7,11 +7,12 @@ This site is a worpress theme for the website Inhabitent, a creation of Red Acad
 # Technology Used 
 
 This site was built using: 
-
--WordPress
--Visual Studio Code
--Gulp 
--MAMP
+<ul>
+<li>WordPress</li>
+<li>Visual Studio Code</li>
+<li>Gulp</li>
+<li>MAMP</li>
+</ul>
 
 # Reflections
 
