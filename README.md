@@ -2,7 +2,7 @@
 
 This site is a worpress theme for the website Inhabitent, a creation of Red Academy used for students to practice their worpress skills. This site includes several static (about, find us, etc) as well as dynamic (journal, products, etc) pages, which show a variety of skills such as custom plugins, use of wordpress classes and php.
 
-<img src="README-images/inhabitent-screenshot.png">
+<img src="../README-images/inhabitent-screenshot.png">
 
 <!-- screenshot here -->
 
