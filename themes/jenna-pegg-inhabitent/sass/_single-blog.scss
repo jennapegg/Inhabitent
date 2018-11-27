@@ -88,7 +88,7 @@
   h3 {
     font-size: 30px;
   }
-  #comment {
+  textarea {
     height: 235px;
     background: $comment-grey;
     width: 750px;
@@ -96,7 +96,7 @@
   .comment-form-author {
     @include flex-column;
     width: 49%;
-    #author {
+    input[type='text'] {
       background: $comment-grey;
       width: 100%;
     }
@@ -106,7 +106,7 @@
     @include flex-column;
     width: 49%;
     margin-left: 2%;
-    #email {
+    input[type='email'] {
       background: $comment-grey;
       width: 100%;
     }
@@ -115,7 +115,7 @@
   .comment-form-url {
     @include flex-column;
     width: 750px;
-    #url {
+    input[type='url'] {
       background: $comment-grey;
       width: 100%;
     }

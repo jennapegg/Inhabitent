@@ -1148,7 +1148,7 @@ object {
     color: #d99054; }
   .comment-form h3 {
     font-size: 30px; }
-  .comment-form #comment {
+  .comment-form textarea {
     height: 235px;
     background: #eeeeee;
     width: 750px; }
@@ -1161,7 +1161,7 @@ object {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 49%; }
-    .comment-form .comment-form-author #author {
+    .comment-form .comment-form-author input[type='text'] {
       background: #eeeeee;
       width: 100%; }
   .comment-form .comment-form-email {
@@ -1174,7 +1174,7 @@ object {
             flex-direction: column;
     width: 49%;
     margin-left: 2%; }
-    .comment-form .comment-form-email #email {
+    .comment-form .comment-form-email input[type='email'] {
       background: #eeeeee;
       width: 100%; }
   .comment-form .comment-form-url {
@@ -1186,7 +1186,7 @@ object {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 750px; }
-    .comment-form .comment-form-url #url {
+    .comment-form .comment-form-url input[type='url'] {
       background: #eeeeee;
       width: 100%; }
 
