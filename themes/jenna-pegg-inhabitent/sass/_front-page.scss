@@ -1,4 +1,10 @@
 .home {
+  .tent-teal {
+    display: block;
+  }
+  .tent {
+    display: none;
+  }
   .colors {
     border-bottom: none;
     background: none;
@@ -10,6 +16,12 @@
     }
     i {
       color: white;
+    }
+    .tent-teal {
+      display: none;
+    }
+    .tent {
+      display: block;
     }
   }
 

@@ -1,4 +1,10 @@
 .page-template-about {
+  .tent-teal {
+    display: block;
+  }
+  .tent {
+    display: none;
+  }
     .colors{
   background: none;
   border: none;
@@ -12,6 +18,12 @@
   }
   i {
     color: white;
+  }
+  .tent-teal {
+    display: none;
+  }
+  .tent {
+    display: block;
   }
 }
   .about-content {

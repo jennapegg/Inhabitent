@@ -30,10 +30,10 @@
 
 					<?php if(is_page_template('about.php')||is_front_page()):?>
 					<a class="tent" href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/images/inhabitent-logo-tent-white.svg" alt=""></a>
+					<a class="tent-teal" href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri() ?>/images/inhabitent-logo-tent.svg" alt=""></a>
 
 					<?php else:?>
 					<a class="tent" href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri() ?>/images/inhabitent-logo-tent.svg" alt=""></a>
-
 					<?php endif; ?>
 				
 					</a>
