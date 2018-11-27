@@ -1,10 +1,10 @@
 <?php
 /**
- * RED Starter Theme functions and definitions.
+ * jenna-pegg-inhabitent functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package RED_Starter_Theme
+ * @package jenna-pegg-inhabitent
  */
 
 if ( ! function_exists( 'red_starter_setup' ) ) :

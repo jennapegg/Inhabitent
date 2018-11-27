@@ -1,8 +1,8 @@
 <?php
 /**
- * Custom template tags for this theme.
+ * Custom template tags for jenna-pegg-inhabitent.
  *
- * @package RED_Starter_Theme
+ * @package jenna-pegg-inhabitent
  */
 
  /**

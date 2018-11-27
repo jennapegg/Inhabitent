@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying archive pages.
+ * The template for displaying product archive page.
  *
- * @package RED_Starter_Theme
+ * @package jenna-pegg-inhabitent
  */
 
 get_header(); ?>

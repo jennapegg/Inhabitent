@@ -4,7 +4,7 @@
  * 
  * @package jenna-pegg-inhabitent
  * 
- *  * Template Name: About Page Tempate
+ *  * Template Name: About Page Template
  */
 
 get_header(); ?>

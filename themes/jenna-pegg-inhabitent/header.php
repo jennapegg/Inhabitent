@@ -1,8 +1,8 @@
 <?php
 /**
- * The header for our theme.
+ * The header for my theme.
  *
- * @package RED_Starter_Theme
+ * @package jenna-pegg-inhabitent
  */
 
 ?><!DOCTYPE html>
