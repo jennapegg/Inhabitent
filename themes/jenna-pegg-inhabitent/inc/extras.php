@@ -26,8 +26,7 @@ add_filter( 'body_class', 'red_starter_body_classes' );
 // custom login for theme
 function my_custom_login_logo() {
 	echo '<style type="text/css">                                                                   
-		h1 a { background-image:url('.get_stylesheet_directory_uri().'/images/inhabitent-logo-text-dark.svg) !important; 
-		height: 120px !important; width: 410px; !important; background-size: cover;}                            
+		h1 a { background-image:url('.get_stylesheet_directory_uri().'/images/inhabitent-logo-text-dark.svg) !important; width: 300px !important; background-size: 300px !important;}                            
 	</style>';
 }
 add_action('login_head', 'my_custom_login_logo');
