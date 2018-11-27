@@ -1,15 +1,14 @@
 // immediately invoked function expression
 (function($) {
-  $(document).ready(function() {
+  $(function() {
 
     $('nav').addClass('colors');
 
     const $submit = $('.main-navigation .icon-search');
     const $field = $('.main-navigation .search-field');
-    let $navigation = $('.main-navigation');
 
     $submit.on('click', function() {
-      // event.preventDefault();
+      event.preventDefault();
       $field.toggle(1000);
       $field.focus();
     }); //end of on click
@@ -17,7 +16,7 @@
     $field.blur(function() {
       console.log('blurred');
       if ($field.val() === '') {
-        $field.hide();
+        $field.hide(1000);
       }
     }); //end of blur function
     $(window).scroll(function() {

@@ -46,10 +46,10 @@ input[type='search'],
 textarea {
   color: #666;
   border: none;
-  border-radius: 3px;
+  // border-radius: 3px;
   background: $comment-grey;
   width: 200px;
-  height: 35px;
+  // height: 35px;
 
   &:focus {
     color: #111;
@@ -61,7 +61,7 @@ input[type='email'],
 input[type='url'],
 input[type='password'],
 input[type='search'] {
-  padding: 3px;
+  // padding: 3px;
 }
 
 textarea {
@@ -77,16 +77,22 @@ textarea {
     input[type='url'],
     input[type='password'],
     input[type='search'] {
-      padding: 3px;
+      padding: 0;
       color: $yellow;
       &:focus {
         color: $yellow;
+        outline: none;
         &::placeholder {
           color: $yellow;
           font-family: 'novecento';
           text-transform: uppercase;
         }
       }
+      &::placeholder {
+          color: $yellow;
+          font-family: 'novecento';
+          text-transform: uppercase;
+        }
     }
   }
 }
@@ -97,15 +103,21 @@ textarea {
   input[type='url'],
   input[type='password'],
   input[type='search'] {
-    padding: 3px;
+    padding: 0;
     color: $teal;
     &:focus {
       color: $teal;
+      outline: none;
       &::placeholder {
         color: $teal;
         font-family: 'novecento';
         text-transform: uppercase;
       }
+    }
+    &::placeholder {
+      color: $teal;
+      font-family: 'novecento';
+      text-transform: uppercase;
     }
   }
 }
