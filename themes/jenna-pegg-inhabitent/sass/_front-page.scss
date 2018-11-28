@@ -1,4 +1,5 @@
 .home {
+  // nav bar
   .tent-teal {
     display: block;
   }
@@ -24,7 +25,12 @@
       display: block;
     }
   }
-
+// content
+  h2 {
+    font-size: 40px;
+    font-family: 'novecento';
+    font-weight: lighter;
+  }
   .content-area {
     width: 100%;
   }
@@ -130,6 +136,105 @@
             }
           }
         }
+      }
+    }
+  }
+
+  .front-page-adventure {
+    @include flex-column;
+    align-items: center;
+    margin-bottom: 50px;
+    .adventure {
+      width: 1125px;
+      height: 525px;
+      display: grid;
+      grid-template-areas: 
+      'canoe canoe beach beach'
+      'canoe canoe mountain star';
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 50% 50%;
+
+      grid-gap: 20px;
+      h3 {
+        font-family: 'Merriweather-Light';
+        text-transform: capitalize;
+        font-weight: lighter;
+        margin-left: 20px;
+        a {
+          color: white;
+          text-decoration: none;
+          &:hover {
+            color: $yellow;
+          }
+        }
+      }
+      .canoe {
+        grid-area: canoe;
+        background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.4)), url(../../images/canoe-girl.jpg) no-repeat center bottom ;
+        background-size: cover;
+        h3 {
+          font-size: 45px;
+          
+        }
+      }
+      .beach-night {
+        grid-area: beach;
+        background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.4)), url(../../images/beach-bonfire.jpg) center;
+        background-size: cover;
+        h3 {
+          font-size: 37px;
+        }
+      }
+      .mountain-view {
+        grid-area: mountain;
+        background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.4)), url(../../images/mountain-hikers.jpg) center;
+        background-size: cover;
+        h3 {
+          font-size: 25px;
+          
+        }
+      }
+      .star-gazing {
+        grid-area: star;
+        background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.4)), url(../../images/night-sky.jpg) center;
+        background-size: cover;
+        h3 {
+          font-size: 25px;
+          
+        }
+      }
+      .read-adventure {
+        margin-left: 20px;
+        a {
+          color: white;
+          text-decoration: none;
+          padding: 10px 20px;
+          border: 1px solid white;
+          font-family: 'novecento';
+        text-transform: uppercase;
+        &:hover {
+        border: none;
+        background: $teal;
+        color: white;
+        }
+        }
+      }
+
+    }
+    .more-adventures {
+      width: 1125;
+      text-align: left;
+      a {
+      border: none;
+      background: $teal;
+      color: white;
+      font-family: 'novecento';
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 20px;
+      &:hover {
+      background: $dark-teal;
+      }
       }
     }
   }

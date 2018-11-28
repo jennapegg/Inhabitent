@@ -82,6 +82,32 @@ endforeach;
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
 </section>
+
+	<!-- adventures -->
+<section class="front-page-adventure">
+<h2>Latest Adventures</h2>
+
+	<div class="adventure">
+		<div class="canoe">
+			<h3><a href="#">Getting Back to Nature in a Canoe</a></h3>
+			<p class="read-adventure"><a href="#">Read More</a></p>
+		</div><!-- end canoe -->
+		<div class="beach-night">
+			<h3><a href="#">A Night with Friends at the Beach</a></h3>
+			<p class="read-adventure"><a href="#">Read More</a></p>
+		</div><!-- end beach-night -->
+		<div class="mountain-view">
+			   <h3><a href="#">Taking in the View at Big Mountain</a></h3>
+			   <p class="read-adventure"><a href="#">Read More</a></p>
+		</div><!-- end mountain-view -->
+		<div class="star-gazing">
+			<h3><a href="#">Star-Gazing at the Night Sky</a></h3>
+			<p class="read-adventure"><a href="#">Read More</a></p>
+		</div><!-- end star-gazing -->
+	</div>
+	<p class="more-adventures"><a href="#">More Adventures</a></p>
+</section>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
