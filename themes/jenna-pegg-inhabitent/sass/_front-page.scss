@@ -151,7 +151,7 @@
       grid-template-areas: 
       'canoe canoe beach beach'
       'canoe canoe mountain star';
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: repeat(4, 24%);
       grid-template-rows: 50% 50%;
 
       grid-gap: 20px;
@@ -222,16 +222,18 @@
 
     }
     .more-adventures {
-      width: 1125;
+      width: 1125px;
       text-align: left;
+      margin-top: 60px;
       a {
       border: none;
       background: $teal;
       color: white;
       font-family: 'novecento';
+      font-size: 20px;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 10px 20px;
+      padding: 12px 22px;
       &:hover {
       background: $dark-teal;
       }

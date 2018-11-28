@@ -1450,7 +1450,7 @@ object {
     height: 525px;
     display: grid;
     grid-template-areas: 'canoe canoe beach beach' 'canoe canoe mountain star';
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4, 24%);
     grid-template-rows: 50% 50%;
     grid-gap: 20px; }
     .home .front-page-adventure .adventure h3 {
@@ -1505,16 +1505,18 @@ object {
           background: #248a83;
           color: white; }
   .home .front-page-adventure .more-adventures {
-    width: 1125;
-    text-align: left; }
+    width: 1125px;
+    text-align: left;
+    margin-top: 60px; }
     .home .front-page-adventure .more-adventures a {
       border: none;
       background: #248a83;
       color: white;
       font-family: 'novecento';
+      font-size: 20px;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 10px 20px; }
+      padding: 12px 22px; }
       .home .front-page-adventure .more-adventures a:hover {
         background: #19625d; }
 
