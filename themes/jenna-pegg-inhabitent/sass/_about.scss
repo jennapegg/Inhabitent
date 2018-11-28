@@ -1,4 +1,5 @@
 .page-template-about {
+  // nav bar
   .tent-teal {
     display: block;
   }
@@ -26,6 +27,7 @@
     display: block;
   }
 }
+// content
   .about-content {
     @include flex-column;
     align-items: center;

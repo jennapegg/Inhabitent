@@ -19,7 +19,7 @@ h6 {
 .hfeed {
   min-height: 100%;
 }
-
+// general content grid template
 .site-content {
   width: 100%;
   display: grid;
@@ -27,7 +27,7 @@ h6 {
     'main main sidebar'
     'main main sidebar';
 }
-
+// front-page template
 .home {
   .site-content {
     width: 100%;
@@ -37,7 +37,7 @@ h6 {
       'main main';
   }
 }
-
+// product archive gris template
 .post-type-archive-product {
   .site-content {
     width: 100%;
@@ -47,7 +47,7 @@ h6 {
       'main main';
   }
 }
-
+// single product grid template 
 .single-product {
   .site-content {
     width: 100%;
@@ -57,7 +57,7 @@ h6 {
       'main main';
   }
 }
-
+// grid areas
 .widget-area {
   grid-area: sidebar;
 }

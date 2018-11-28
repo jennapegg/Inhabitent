@@ -7,11 +7,11 @@
     const $submit = $('.main-navigation .icon-search');
     const $field = $('.main-navigation .search-field');
 
-    $submit.on('click', function() {
+    $submit.on('mousedown', function() {
       event.preventDefault();
       $field.toggle(1000);
       $field.focus();
-    }); //end of on click
+    }); //end of on mousedown
 
     $field.blur(function() {
       console.log('blurred');

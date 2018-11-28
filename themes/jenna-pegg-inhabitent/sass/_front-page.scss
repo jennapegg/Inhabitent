@@ -25,7 +25,7 @@
       display: block;
     }
   }
-// content
+// header
   h2 {
     font-size: 40px;
     font-family: 'novecento';
@@ -46,6 +46,7 @@
     justify-content: center;
     align-items: center;
   }
+  // shop section
   .shop-stuff {
     @include flex-column;
     align-items: center;
@@ -84,7 +85,7 @@
       }
     }
   }
-
+// journal section
   .front-page-journal {
     @include flex-column;
     align-items: center;
@@ -139,7 +140,7 @@
       }
     }
   }
-
+// adventure section
   .front-page-adventure {
     @include flex-column;
     align-items: center;
