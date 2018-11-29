@@ -694,7 +694,7 @@ a {
           align-items: center;
   width: 100%;
   position: fixed;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.8);
   min-height: 50px;
   z-index: 1000;
   border-bottom: 1px solid #e1e1e1; }
@@ -1583,7 +1583,9 @@ object {
     .post-type-archive-product .product-archive .product img,
     .tax-product_type .product-archive .product img {
       height: 253px;
-      border-bottom: 5px solid #e1e1e1; }
+      border-bottom: 5px solid #e1e1e1;
+      -o-object-fit: cover;
+         object-fit: cover; }
     .post-type-archive-product .product-archive .product .product-info,
     .tax-product_type .product-archive .product .product-info {
       height: 50px;
