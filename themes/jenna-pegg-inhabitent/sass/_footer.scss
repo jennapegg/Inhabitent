@@ -16,6 +16,13 @@
       margin: 0;
     }
   }
+  // business hours section
+  .business {
+    margin: 50px;
+    span {
+      font-family: 'Merriweather-Bold';
+    }
+  }
 }
 // contact section
 .contact {
@@ -28,13 +35,7 @@
     padding-right: 5px;
   }
 }
-// busssiness hours section
-.business {
-  margin: 50px;
-  span {
-    font-family: 'Merriweather-Bold';
-  }
-}
+
 // icons
 .social-media {
   i {

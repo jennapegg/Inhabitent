@@ -347,26 +347,22 @@ h6 {
 .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main sidebar'
- 'main main sidebar'; }
+  grid-template-areas: 'main main sidebar' 'main main sidebar'; }
 
 .home .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main'
- 'main main'; }
+  grid-template-areas: 'main main' 'main main'; }
 
 .post-type-archive-product .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main'
- 'main main'; }
+  grid-template-areas: 'main main' 'main main'; }
 
 .single-product .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main'
- 'main main'; }
+  grid-template-areas: 'main main' 'main main'; }
 
 .widget-area {
   grid-area: sidebar; }
@@ -884,6 +880,8 @@ a {
   margin-top: 50px;
   width: 350px;
   border-left: 1px solid #e1e1e1; }
+  .widget-area h2 {
+    font-size: 1.5rem; }
   .widget-area a {
     color: #248a83;
     text-decoration: none; }
@@ -998,10 +996,6 @@ object {
 .gallery-caption {
   display: block; }
 
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-/* Front page */
 .blog .content-area,
 .category .content-area,
 .tag .content-area {
@@ -1217,6 +1211,11 @@ object {
 .page-id-25 .content-area {
   padding-left: 75px;
   padding-top: 50px; }
+  .page-id-25 .content-area h1,
+  .page-id-25 .content-area h2 {
+    font-size: 35px; }
+  .page-id-25 .content-area h2 {
+    color: #2f1339; }
 
 .page-id-25 figure {
   margin: 0; }
@@ -1225,20 +1224,10 @@ object {
     height: 250px;
     border: none; }
 
-.page-id-25 h1,
-.page-id-25 h2 {
-  font-size: 35px; }
-
-.page-id-25 h2 {
-  color: #2f1339; }
-
 .page-id-25 .wpcf7-form {
   width: 775px;
   font-family: 'novecento';
   text-transform: uppercase; }
-
-.page-id-25 span {
-  color: #d99054; }
 
 .page-id-25 .your-name input[type='text'] {
   width: 400px;
@@ -1453,8 +1442,7 @@ object {
     width: 1125px;
     height: 525px;
     display: grid;
-    grid-template-areas: 'canoe canoe beach beach'
- 'canoe canoe mountain star';
+    grid-template-areas: 'canoe canoe beach beach' 'canoe canoe mountain star';
     grid-template-columns: repeat(4, 24%);
     grid-template-rows: 50% 50%;
     grid-gap: 20px; }
@@ -1814,19 +1802,18 @@ object {
       font-size: 20px;
       color: #d99054;
       margin: 0; }
+  .site-footer .business {
+    margin: 50px; }
+    .site-footer .business span {
+      font-family: 'Merriweather-Bold'; }
 
 .contact {
   margin: 55px; }
   .contact a {
- business white;
+    color: white;
     text-decoration: none; }
-  .business {
+  .contact i {
     padding-right: 5px; }
-
-.bussiness {
-  margin: 50px; }
-  .bussiness span {
-    font-family: 'Merriweather-Bold'; }
 
 .social-media i {
   padding: 0 10px 0 10px; }

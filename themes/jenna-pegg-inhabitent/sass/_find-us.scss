@@ -2,6 +2,13 @@
   .content-area {
     padding-left: 75px;
     padding-top: 50px;
+  h1,
+  h2 {
+    font-size: 35px;
+  }
+  h2 {
+    color: $purple;
+  }
   }
   // google map
   figure {
@@ -13,20 +20,12 @@
     }
   }
 // contact form
-  h1,
-  h2 {
-    font-size: 35px;
-  }
-  h2 {
-    color: $purple;
-  }
+  
+  
   .wpcf7-form {
     width: 775px;
     font-family: 'novecento';
     text-transform: uppercase;
-  }
-  span {
-    color: $orange;
   }
   .your-name {
     input[type='text'] {
