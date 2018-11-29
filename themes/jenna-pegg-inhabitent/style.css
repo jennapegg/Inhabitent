@@ -347,22 +347,26 @@ h6 {
 .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main sidebar' 'main main sidebar'; }
+  grid-template-areas: 'main main sidebar'
+ 'main main sidebar'; }
 
 .home .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main' 'main main'; }
+  grid-template-areas: 'main main'
+ 'main main'; }
 
 .post-type-archive-product .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main' 'main main'; }
+  grid-template-areas: 'main main'
+ 'main main'; }
 
 .single-product .site-content {
   width: 100%;
   display: grid;
-  grid-template-areas: 'main main' 'main main'; }
+  grid-template-areas: 'main main'
+ 'main main'; }
 
 .widget-area {
   grid-area: sidebar; }
@@ -1449,7 +1453,8 @@ object {
     width: 1125px;
     height: 525px;
     display: grid;
-    grid-template-areas: 'canoe canoe beach beach' 'canoe canoe mountain star';
+    grid-template-areas: 'canoe canoe beach beach'
+ 'canoe canoe mountain star';
     grid-template-columns: repeat(4, 24%);
     grid-template-rows: 50% 50%;
     grid-gap: 20px; }
@@ -1813,9 +1818,9 @@ object {
 .contact {
   margin: 55px; }
   .contact a {
-    color: white;
+ business white;
     text-decoration: none; }
-  .contact i {
+  .business {
     padding-right: 5px; }
 
 .bussiness {

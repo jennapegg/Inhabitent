@@ -1,19 +1,19 @@
 <?php
 /**
- * Inhabitent Bussiness Hours
+ * Inhabitent business Hours
  *
  * The RED Widget Boilerplate is an organized, maintainable boilerplate for building widgets using WordPress best practices.
  *
  * Lightly forked from the WordPress Widget Boilerplate by @tommcfarlin.
  *
- * @package   Inhabitent Bussiness Hours
+ * @package   Inhabitent business Hours
  * @author    Jenna Pegg <jenna.pegg.vic@gmail.com>
  * @license   GPL-2.0+
  * @link      http://example.com
  * @copyright 2018 RED Academy
  *
  * @wordpress-plugin
- * Plugin Name:       Inhabitent Bussiness Hours
+ * Plugin Name:       Inhabitent business Hours
  * Plugin URI:        @TODO
  * Description:       @TODO
  * Version:           1.0.0
@@ -23,14 +23,14 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
- //TODO: change bussiness to be business
+ //TODO: change business to be business
 
 // Prevent direct file access
 if ( ! defined ( 'ABSPATH' ) ) {
 	exit;
 }
 
-class Inhabitent_Bussiness_Hours extends WP_Widget {
+class Inhabitent_business_Hours extends WP_Widget {
 
     /**
      *
@@ -40,7 +40,7 @@ class Inhabitent_Bussiness_Hours extends WP_Widget {
      *
      * @var      string
      */
-    protected $widget_slug = 'inhabitent-bussiness-hours';
+    protected $widget_slug = 'inhabitent-business-hours';
 
 	/*--------------------------------------------------*/
 	/* Constructor
@@ -53,10 +53,10 @@ class Inhabitent_Bussiness_Hours extends WP_Widget {
 
 		parent::__construct(
 			$this->get_widget_slug(),
-			'Inhabitent Bussiness Hours',
+			'Inhabitent business Hours',
 			array(
 				'classname'  => $this->get_widget_slug().'-class',
-				'description' => 'Add the bussiness hours of Inhabitent'
+				'description' => 'Add the business hours of Inhabitent'
 			)
 		);
 
@@ -146,7 +146,7 @@ class Inhabitent_Bussiness_Hours extends WP_Widget {
 		$instance = wp_parse_args(
 			(array) $instance,
 			array(
-				'title' => 'Bussiness Hours',
+				'title' => 'business Hours',
 				'monday_friday' => '',
 				'saturday' => '',
 				'sunday' => '',
@@ -168,5 +168,5 @@ class Inhabitent_Bussiness_Hours extends WP_Widget {
 
 // TODO: Remember to change 'Widget_Name' to match the class name definition
 add_action( 'widgets_init', function(){
-     register_widget( 'Inhabitent_Bussiness_Hours' );
+     register_widget( 'Inhabitent_business_Hours' );
 });

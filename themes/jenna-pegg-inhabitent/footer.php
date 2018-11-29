@@ -21,8 +21,8 @@
 							<i class="fab fa-google-plus-square"></i>
 						</div>
 					</div>
-					<!-- bussiness hours -->
-					<div class="bussiness">
+					<!-- business hours -->
+					<div class="business">
 						<h6>Business Hours</h6>
 						<p><span>Monday-Friday:</span> 9am to 5pm</p>
 						<p><span>Saturday:</span> 10am to 2pm</p>
