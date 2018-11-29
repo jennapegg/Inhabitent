@@ -1417,7 +1417,8 @@ object {
           font-size: 22px;
           text-decoration: none;
           color: #248a83;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          margin-bottom: 10px; }
           .home .front-page-journal .journal-section .journal-entrie .journal-mini-meta a:hover {
             color: #2f1339; }
         .home .front-page-journal .journal-section .journal-entrie .journal-mini-meta .read-entry {
